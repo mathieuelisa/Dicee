@@ -1,13 +1,13 @@
 
 // GENERAL
 
-var image = ["images/dice1.png","images/dice2.png","images/dice3.png","images/dice4.png","images/dice5.png","images/dice6.png"]
+let image = ["images/dice1.png","images/dice2.png","images/dice3.png","images/dice4.png","images/dice5.png","images/dice6.png"]
 
 // FIRST DICE
 
-var randomNumber1 = Math.floor(Math.random() * 6)
+let randomNumber1 = Math.floor(Math.random() * 6)
 
-var firstImage = image[randomNumber1]
+let firstImage = image[randomNumber1]
 
 document.querySelector(".img1").setAttribute("src", firstImage)
 
@@ -16,9 +16,9 @@ console.log(randomNumber1)
 
 // SECOND DICE
 
-var randomNumber2 = Math.floor(Math.random() * 6)
+let randomNumber2 = Math.floor(Math.random() * 6)
 
-var secondImage = image[randomNumber2]
+let secondImage = image[randomNumber2]
 
 document.querySelector(".img2").setAttribute("src", secondImage)
 
