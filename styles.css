@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Gameplay";
+  src: url("./polices/Gameplay.ttf");
+}
+
 body {
   background-color: #393e46;
 }
@@ -7,6 +12,7 @@ h1 {
   text-shadow: 5px 0 #232931;
   font-size: 6rem;
   color: #4ecca3;
+  font-family: "Gameplay";
 }
 
 p {
@@ -28,6 +34,18 @@ img {
 .dice {
   text-align: center;
   display: inline-block;
+}
+
+#myButton {
+  display: inline-block;
+  border: 1px solid black;
+  width: 70px;
+  height: 30px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 30px;
 }
 
 footer {

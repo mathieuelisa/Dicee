@@ -31,5 +31,5 @@ else if(randomNumber1 < randomNumber2){
     document.querySelector("h1").innerHTML = "Joueur 2 Gagnant!🔥"
         }
 else{
-    document.querySelector("h1").innerHTML = "Egalité!"
+    document.querySelector("h1").innerHTML = "Egalite!"
 }
