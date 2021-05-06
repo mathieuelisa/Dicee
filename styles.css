@@ -18,7 +18,7 @@ h1 {
 p {
   font-size: 2rem;
   color: #4ecca3;
-  font-family: "Indie Flower", cursive;
+  font-family: "Gameplay";
 }
 
 img {
@@ -38,21 +38,20 @@ img {
 
 #myButton {
   display: inline-block;
-  border: 1px solid black;
-  width: 70px;
-  height: 30px;
+  border: 2px solid #4ecca3;
+  padding: 7px 21px;
   background-color: white;
   border-radius: 10px;
   text-align: center;
   text-decoration: none;
   margin-top: 30px;
+  color: red;
+  font-family: "Gameplay";
 }
 
-footer {
-  margin-top: 5%;
-  color: #eeeeee;
-  text-align: center;
-  font-family: "Indie Flower", cursive;
+#myButton:hover {
+  background-color: lightgray;
+  transition: 0.9s;
 }
 
 @media screen and (min-width: 250px) and (max-width: 500px) {
