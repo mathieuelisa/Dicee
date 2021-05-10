@@ -31,6 +31,13 @@ img {
   text-align: center;
 }
 
+.result {
+  height: 273px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .dice {
   text-align: center;
   display: inline-block;
