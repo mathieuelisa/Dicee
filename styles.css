@@ -32,8 +32,8 @@ img {
 }
 
 .result {
-  height: 273px;
   display: flex;
+  padding-top: 50px;
   justify-content: center;
   align-items: center;
 }
@@ -42,6 +42,8 @@ img {
   text-align: center;
   display: inline-block;
 }
+
+/* Custom bouton */
 
 #myButton {
   display: inline-block;
@@ -67,11 +69,12 @@ img {
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: 2.2rem;
     margin: 0;
   }
 
   p {
     margin: 20px;
+    font-size: 1.5em;
   }
 }
